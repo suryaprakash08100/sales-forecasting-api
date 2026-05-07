@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Data files (Ignoring large Excel/CSV files to keep repo lightweight)
+data/*.xlsx
+data/*.csv
+data/*.json
+
+# Model Artifacts (Ignoring saved models and tail files to save space)
+app/saved_models/*.pkl
+app/saved_models/*.keras
+app/saved_models/*.csv
+app/saved_models/*.json
+
+# Environment variables
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
